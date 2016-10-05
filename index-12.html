@@ -7,7 +7,7 @@
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <meta name="format-detection" content="telephone=no"/>
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-  <title>Home</title>
+  <title>New</title>
 
   <!-- Bootstrap -->
   <link href="css/bootstrap.css" rel="stylesheet">
@@ -15,7 +15,8 @@
   <!-- Links -->
   <link rel="stylesheet" href="css/camera.css">
   <link rel="stylesheet" href="css/google-map.css">
-  <link rel="stylesheet" href="css/mailform-sub.css">
+  <link rel="stylesheet" href="css/mailform-sub.css"/>
+  <link rel="stylesheet" href="css/mailform-1.css">
   <link rel="stylesheet" href="css/search.css">
 
 
@@ -41,19 +42,19 @@
   <!--========================================================
                             HEADER
   =========================================================-->
-  <header>
+  <header id="home" class="scrollto">
     <div id="stuck_container" class="stuck_container">
       <nav class="navbar navbar-default navbar-static-top ">
         <div class="container">
-          <div class="navbar-header">
+          <div class="navbar-header navbar-header-1">
             <h1 class="navbar-brand">
               <a data-type='rd-navbar-brand' href="./">Constr<span>ex</span></a>
             </h1>
           </div>
 
           <ul class="navbar-nav sf-menu navbar-right" data-type="navbar">
-            <li class="active dropdown">
-              <a href="./">Home</a>
+            <li class="dropdown">
+              <a href="#home">Home</a>
               <ul class="dropdown-menu">
                 <li><a href="index-6.html">Components</a></li>
                 <li><a href="index-7.html">Footer light</a></li>
@@ -67,7 +68,7 @@
               </ul>
             </li>
             <li class="dropdown">
-              <a href="index-1.html">About</a>
+              <a href="#about">About</a>
               <ul class="dropdown-menu">
                 <li>
                   <a href="#">Aliuam congu </a>
@@ -99,14 +100,14 @@
               </ul>
             </li>
             <li>
-              <a href="index-2.html">Services</a>
+              <a href="#services">Services</a>
             </li>
             <li>
-              <a href="index-3.html">Projects</a>
+              <a href="#project">Projects</a>
             </li>
 
             <li>
-              <a href="index-4.html">Contacts</a>
+              <a href="#contact">Contacts</a>
             </li>
           </ul>
         </div>
@@ -131,8 +132,8 @@
 
     </div>
 
-    <section class="camera_container">
-      <div class="jumbotron text-center">
+    <section class="camera_container inset-1">
+      <div class="jumbotron jumbotron-mod text-center">
         <div class="container">
           <p class="head">
             We are the leaders
@@ -141,15 +142,10 @@
               </span>
           </p>
 
-          <p class="ins1">
-            Sed eleifend ornare metus, non rhoncus elit ultrices quis. Curabitur et metus ac sapien dictum
-            tempus. Nam blandit sed ligula fa
-            ucibus elementum. Sed sed consequat nisi. Etiam mauris massa, sodales lobortis tortor id, dictum
-            sollicitudin felis. Vestibulum tristique urna ex, eu vehicula magna mattis maximus. Aliquam ut
-            leo
-            ultricies
-          </p>
-          <a href="#" class="btn-link">Read More</a>
+          <p class="ins1" >At Constrex we strive to excel in every service we provide, adding value for our customers
+            wherever
+            possible, and thereby attaining national leadership in the construction industry.</p>
+          <a href="#" class="btn btn-primary">Learn more</a>
         </div>
       </div>
       <div id="camera" class="camera_wrap">
@@ -163,7 +159,7 @@
 
           </div>
         </div>
-        <div data-src="images/slide1.jpg">
+        <div  data-src="images/slide1.jpg">
           <div class="camera_caption fadeIn">
 
           </div>
@@ -180,60 +176,35 @@
 
   <main>
 
-    <section class="well well1">
+    <section class="well well-14" id="about">
       <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-sm-6 col-xs-6 wow fadeInLeft" data-wow-delay=".9s">
-
-            <img src="images/page-1_img1.png" alt=""/>
-            <h5 class="ins_r">
-              Project
-              Management
-            </h5>
-
-            <p class="txt-light">
-              Sed eleifend ornare metus, non rho ncus elit ultrices quis. Curabitur et met us ac sapien
-              dictum
-            </p>
+        <div class="col-xs-12 col-sm-12  col-md-5  col-lg-4 text-left center991">
+          <img src="images/page-1_img16.jpg" alt="">
+        </div>
+        <div class="col-xs-12 col-sm-12  col-md-7  col-lg-8 text-left center991">
+          <h3 class="text-lh">A Few Words About Us</h3>
+          <p class="offset-4">Our company has been identifying prospective mining targets for oil and gas production for 50 years. We are
+            engaged in oil and gas exploration and production activities all over the world, including the most remote
+            corners of the planet. With years of experience, newest equipment and professional employees we achieved the
+            highest level of quality in oil exploration, production, transportation and refining. Our technologies are
+            of the highest level, and that allows us to use the planet’s resources more efficiently.</p>
+          <div class="text-left left991 media inset-3">
+            <div class="media-left">
+              <img src="images/page-1_img17.png" alt="">
+            </div>
+            <div class="media-body">
+              <h6>Our mission</h6>
+              <p>We aim to make clients happy by selling the best products at the best prices, in a friendly, fun atmosphere. Our rating has remained at 100% with excellent and positive feedbacks. We are constantly adding new products.</p>
+            </div>
           </div>
-          <div class="col-md-3 col-sm-6 col-xs-6 wow fadeInLeft" data-wow-delay=".7s">
-
-            <img src="images/page-1_img2.png" alt=""/>
-            <h5 class="ins_r">
-              Building
-              Innovation
-            </h5>
-
-            <p class="txt-light">
-              Sed eleifend ornare metus, non rho ncus elit ultrices quis. Curabitur et met us ac sapien
-              dictum
-            </p>
-          </div>
-          <div class="col-md-3 col-sm-6 col-xs-6 wow fadeInLeft" data-wow-delay=".5s">
-
-            <img src="images/page-1_img3.png" alt=""/>
-            <h5 class="ins_r">
-              Inspection
-              & Testing
-            </h5>
-
-            <p class="txt-light">
-              Sed eleifend ornare metus, non rho ncus elit ultrices quis. Curabitur et met us ac sapien
-              dictum
-            </p>
-          </div>
-          <div class="col-md-3 col-sm-6 col-xs-6 wow fadeInLeft" data-wow-delay=".3s">
-
-            <img src="images/page-1_img4.png" alt=""/>
-            <h5 class="ins_r">
-              New
-              Technologies
-            </h5>
-
-            <p class="txt-light">
-              Sed eleifend ornare metus, non rho ncus elit ultrices quis. Curabitur et met us ac sapien
-              dictum
-            </p>
+          <div class="text-left left991 media inset-3">
+            <div class="media-left">
+              <img src="images/page-1_img18.png" alt="">
+            </div>
+            <div class="media-body">
+              <h6>What we do</h6>
+              <p>With teams of experienced professionals we give multiple solutions to our clients around the world. Our professionals deliver high-touch services to help clients every step they take. </p>
+            </div>
           </div>
         </div>
       </div>
@@ -243,15 +214,17 @@
              data-speed="0.6">
       <div class="container">
         <h2 class="fw-l">
-          Striving to excellence<br/>
-          in service we provide
+          Striving to excellence in services <br>
+          we provide in our work
         </h2>
 
-        <p class="white ins1 offs1">
-          Sed eleifend ornare metus, non rhoncus elit ultrices quis. Curabitur et metus acsapien dict
-          um tempus. Nam blandit sed ligula faucibus elementum. Sed sed consequat nisi. Etiam mauris massa,
-          sodales lobortis tortor id, dictum sollicitudin feli
-        </p>
+        <p class="white inset-2 offs1">The Constrex vision is to stand above our competitors in the city construction
+          market by being known for the quality of our work, the exceptional service we provide, and the integrity with
+          which we treat all of our employees and business relationships. Clients, consultants and subcontractors will
+          be enthusiastic to work with us on any project and our employees will be proud to say that they are a part of
+          the Constrex Team.</p>
+
+
       </div>
     </section>
     <section class="ang_block bg-primary text-center wow fadeIn" data-wow-duration="1.5s">
@@ -301,7 +274,7 @@
       </div>
     </section>
 
-    <section class="well well3">
+    <section class="well well3 well3-mod" id="services">
       <div class="container">
         <h3 class="text-center">
           Our Services
@@ -315,19 +288,12 @@
 
               <div class="caption">
                 <h6>
-                  Vestibulum iaculis lacinia est
+                  Assessment services
                 </h6>
 
-                <p>
-                  Quisque porttitor sem libero auctor lorem fringilla sit amehasellus gravida nisi
-                  elitam egestda. Sedquis
-                  rra enim. Vivamus aliquet rutrum dui a varius. Mauris ornare tortor in eleifend
-                  blanditu
-                </p>
-                <a href="#" class="btn-link">
-                  <span class="fst" data-txt="Read More"></span>
-                  <span class="snd" data-txt="Read More"></span>
-                </a>
+                <p>We offer assessment services to identify, quantify, and/or plan building system upgrades and
+                  improvements. The assessments can range in scope from a single building system to the entire
+                  building. </p>
               </div>
             </div>
           </div>
@@ -337,18 +303,13 @@
 
               <div class="caption">
                 <h6>
-                  Proin dictum elementum velit
+                  Hydrology & Hydraulics
                 </h6>
 
-                <p>
-                  Vivamus aliquet rutrum dui a varius. Mauris ornare tortor in eleifend blanditullam
-                  ut ligula et neque. Nulla interdum dapibus erat nec element. Fusce aliquet tem por
-                  mi, vitae sollicitudin arcu convalli
-                </p>
-                <a href="#" class="btn-link">
-                  <span class="fst" data-txt="Read More"></span>
-                  <span class="snd" data-txt="Read More"></span>
-                </a>
+                <p>Our engineers combine an understanding of hydrologic processes and hydraulic behavior with the needs
+                  of the client, in order to design cost effective measures to protect project improvements while
+                  minimizing
+                  public safety risks. </p>
               </div>
             </div>
           </div>
@@ -358,18 +319,12 @@
 
               <div class="caption">
                 <h6>
-                  Fusce euismod consequat ante
+                  New Construction
                 </h6>
 
-                <p>
-                  Sedquis viverra enim. Vivamus aliquet rutrum dui a varius. Mauris ornare tortor in
-                  eleifend blanditullam ut ligula et neque. Nulla interdum dapibusce aliquet tempor
-                  mi, vitae sollicitudin arcu con
-                </p>
-                <a href="#" class="btn-link">
-                  <span class="fst" data-txt="Read More"></span>
-                  <span class="snd" data-txt="Read More"></span>
-                </a>
+                <p>Engineering consultation is necessary for a new development with the purpose of providing design
+                  recommendations for grading, foundation design, drainage, pavement design, and other pertinent
+                  information necessary for site development.</p>
               </div>
             </div>
           </div>
@@ -378,7 +333,7 @@
       </div>
     </section>
 
-    <section class="well well4 parallax text-center" data-url="images/parallax2.jpg" data-mobile="true"
+    <section class="well well4 well4-mod parallax text-center" data-url="images/parallax2.jpg" data-mobile="true"
              data-speed="0.6">
       <div class="container">
         <h2>
@@ -387,109 +342,119 @@
         </h2>
 
         <p class="white ins1">
-          Sed sed consequat nisi. Etiam mauris massa, sodales lobortis tortor id, dictum sollicitudin feli
-          sestibulum tristique urna ex, eu vehicula magna mattis maximus
+          Customer Service. We are determined to reintroduce honesty and integrity into the commercial, industrial, and
+          multi-family residential construction industry. Today, these core values are more important than ever.
         </p>
+        <a href="#" class="btn btn-primary" >Learn More</a>
+      </div>
+    </section>
+
+    <section class="well well5" id="project" >
+      <div class="container center767">
+        <h3 class="text-center">
+          Last Added Projects
+        </h3>
+
+        <div class="row">
+          <div class="col-sm-6 col-xs-12">
+            <div class="">
+              <img class="" src="images/page-1_img14.jpg" alt="">
+
+              <div class="caption">
+                <h6 class="offset-3">
+                  <a href="#">
+                    Inspection and Testing
+                  </a>
+                </h6>
+
+                <p class="">In order to familiarize the entire team with project requirements and to identify any
+                  potential construction difficulties, plans and specifications are thoroughly reviewed by our
+                  laboratory and inspection staff. Daily field reports are completed by technicians and inspectors and
+                  then are submitted to the project manager.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-xs-12">
+            <div class="  ">
+              <img class="" src="images/page-1_img15.jpg" alt="">
+
+              <div class="caption">
+                <h6 class="offset-3">
+                  <a href="#">
+                    Slope Stability
+                  </a>
+                </h6>
+
+                <p class="">Our companyprovides geotechnical recommendations services for design of fill and cut slopes,
+                  landslide repairs, as well as rehabilitating failed slopes. Our company utilizes state-of-the-art
+                  software to determine the stability of the slopes and to formulate repairs.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="well well4 parallax text-center" data-url="images/parallax3.jpg" data-mobile="true"
+             data-speed="0.6">
+      <div class="container text-center">
+        <h2>Managing <br>
+          projects of any complexity</h2>
+
+        <p class="white ins1">The geologic conditions at a site can play a significant role in determining the economic
+          feasibility and constructability of proposed developments or construction projects.</p>
         <a href="#" class="btn btn-primary">Learn More</a>
       </div>
     </section>
 
-    <section class="well well5">
+    <section class="well well5 well5-mod" id="contact">
       <div class="container">
-        <h3 class="text-center">
-          Why Choose Us?
-        </h3>
+        <h3 class="text-center">Contact Us</h3>
+        <form class='mailform text-center' method="post" action="bat/rd-mailform.php" data-type="contact">
+          <div class="form-group name name-1" data-add-placeholder>
+            <label for="mailform-input-name">Full name</label>
+            <input id="mailform-input-name"
+                   type="text"
+                   name="name"
+                   data-constraints="@LettersOnly @NotEmpty"/>
+          </div>
 
-        <p class="text-center">
-          Nulla interdum dapibus erat nec elementum. Fusce aliquet tempor mi, vitae sollicitudin arcu
-          convallis id. In id vestibulum sapien. Praesent eg
-          et bibendum purus quis placerat dui. Duis lacinia nisi sit ansequat lorem nunc
-        </p>
 
-        <div class="row">
+          <div class="form-group email-mod email-mod-1" data-add-placeholder>
+            <label for="mailform-input-email">Email</label>
+            <input id="mailform-input-email"
+                   type="text"
+                   name="email"
+                   data-constraints="@Email @NotEmpty"/>
+          </div>
 
-          <ul class="icon-list wow fadeInLeft" data-wow-duration="2s">
-            <li class="col-md-4 col-sm-6 col-xs-12">
-              <h6>
-                <a href="#">
-                  Perfect Experience
-                </a>
-              </h6>
 
-              <p>
-                Curabitur et metus ac sapien dictum temp us. Nam blandit sed ligula faucibus eleme
-                ntum. Sed sed consequat nisi.
-              </p>
-            </li>
-            <li class="col-md-4 col-sm-6 col-xs-12">
-              <h6>
-                <a href="#">
-                  Very Competitive Rates
-                </a>
-              </h6>
+          <div class="form-group phone" data-add-placeholder>
+            <label for="mailform-input-phone">Your phone</label>
+            <input id="mailform-input-phone"
+                   type="text"
+                   name="phone"
+                   data-constraints="@Phone"/>
+          </div>
 
-              <p>
-                Daewd ligula faucibus elementum. Sed sed consequat nisi. Etiam mauris massa, sodales
-                lobortis tortor id, dictum sollicit
-              </p>
-            </li>
-            <li class="col-md-4 col-sm-6 col-xs-12">
-              <h6>
-                <a href="#">
-                  Satisfaction Guatantee
-                </a>
-              </h6>
+          <div class="form-group textarea" data-add-placeholder>
+            <label for="mailform-input-textarea">Your Message</label>
+                                <textarea id="mailform-input-textarea"
+                                          name="message"
+                                          data-constraints="@NotEmpty"></textarea>
+          </div>
 
-              <p>
-                Sed sed consequat nisi. Etiam mauris massa, sodales lobortis tortor id, dictum
-                sollicitudin felis. Vestibulum tristique urna
-              </p>
-            </li>
-            <li class="col-md-4 col-sm-6 col-xs-12">
-              <h6>
-                <a href="#">
-                  Honest and Dependable
-                </a>
-              </h6>
-
-              <p>
-                Sed eleifend ornare metus, non rhoncus elit ultrices quis. Curabitur et metus ac sapien
-                dictum tempus. Nam blandit sed
-              </p>
-            </li>
-            <li class="col-md-4 col-sm-6 col-xs-12">
-              <h6>
-                <a href="#">
-                  Safety & Reliability
-                </a>
-              </h6>
-
-              <p>
-                Nam blandit sed ligula faucibus elemen
-                tum. Sed sed consequat nisi. Etiam mauris massa, sodales lobortis tortor
-              </p>
-            </li>
-            <li class="col-md-4 col-sm-6 col-xs-12">
-              <h6>
-                <a href="#">
-                  Superior Quality
-                </a>
-              </h6>
-
-              <p>
-                Etiam mauris massa, sodales lobortis tort
-                or id, dictum sollicitudin felis. Vestibulum tristique urna ex, eu vehicula
-              </p>
-            </li>
-          </ul>
-
-        </div>
+          <div class="form-group btn-wr text-center">
+            <button class="btn btn-default" type="submit">submit</button>
+          </div>
+        </form>
       </div>
     </section>
 
     <section class="well well6 bg-primary">
       <div class="container">
-        <div class="mailform-sub">
+        <div class="mailform-sub two">
 
 
           <p>
@@ -499,9 +464,9 @@
           <form class='mailform' method="post" action="bat/rd-mailform.php" data-type="contact">
 
 
-            <div class="form-group" data-add-placeholder>
-              <label for="mailform-input-email">Your email address</label>
-              <input id="mailform-input-email"
+            <div class="form-group form-group-0" data-add-placeholder>
+              <label for="mailform-input-email-2">Your email address</label>
+              <input id="mailform-input-email-2"
                      type="text"
                      name="email"
                      data-constraints="@Email @NotEmpty"/>
@@ -532,20 +497,19 @@
                           FOOTER
 =========================================================-->
   <footer>
-
-    <section class="well_foot-1 bg1">
+    <section class="well_foot-1 well-10 well-10-mod bg1">
       <div class="container">
         <div class="row">
           <div class="col-md-3 col-sm-6 col-xs-12">
 
             <h4>about us</h4>
 
-            <p>
-              Sed eleifend ornare metus, non rhoncus elit ultrices quis. Curabitur et metus ac sapien dictum tempus. Nam
-              blandit sed ligula faucibus element um. Sed sed consequat nisi. Etiam mauris massa
+            <p class="big">
+              We provide geotechnical engineering and construction inspection services for a wide variety of
+              transportation, power plant and utility, industrial, commercial, and residential projects.
               <br/>
               <br/>
-              Sodales lobort dictum sollicitudin felis. Vestibulum tristique urna
+              Our geotechnical designs assure project performance and provide practical and cost-effective solutions.
             </p>
           </div>
           <div class="col-md-3 col-sm-6 col-xs-12">
@@ -564,37 +528,36 @@
 
           <div class="col-md-3 col-sm-6 col-xs-12 clear-md">
 
-            <h4>Categories</h4>
+            <h4>Contact us</h4>
 
-            <div class="categ">
-              <div>
-                <a href="#"> Sed eleifend </a>
+            <address class="contact-info">
+              <p class="fw-b big">
+                4578 Marmora Road, <br>
+                Glasgow D04 89GR
+              </p>
+
+              <div class="terms-list-1">
+                <dl>
+                  <dt>Freephone:</dt>
+                  <dd><a href="callto:#">+1 800 559 6580</a>
+                  </dd>
+                </dl>
+                <dl>
+                  <dt>Telephone:</dt>
+                  <dd><a href="callto:#">+1 800 603 6035</a>
+                  </dd>
+                </dl>
+                <dl>
+                  <dt>FAX:</dt>
+                  <dd><a href="callto:#">+1 800 889 9898</a>
+                  </dd>
+                </dl>
+                <dl>
+                  <dt>E-mail:</dt>
+                  <dd><a href="mailto:#">mail@demolink.org</a></dd>
+                </dl>
               </div>
-              <div>
-                <a href="#">Penareme</a>
-              </div>
-              <div>
-                <a href="#">Metus no</a>
-              </div>
-              <div>
-                <a href="#">tusnon </a>
-              </div>
-              <div>
-                <a href="#">rhoncus elit </a>
-              </div>
-              <div>
-                <a href="#">Curabitu</a>
-              </div>
-              <div>
-                <a href="#">elit ultrices</a>
-              </div>
-              <div>
-                <a href="#">ultrices quis</a>
-              </div>
-              <div>
-                <a href="#">Curabitur et us</a>
-              </div>
-            </div>
+            </address>
 
           </div>
 
@@ -641,15 +604,15 @@
     </section>
 
 
-    <section class="well_foot-2">
+    <section class="well_foot-2 ">
       <div class="container">
         <div class="rights">
           <h1>Constr<span>ex</span></h1> &#169; <span id="copyright-year"></span>&nbsp;
           <a href="index-5.html">Privacy Policy</a>
-          <!-- {%FOOTER_LINK} -->
         </div>
       </div>
     </section>
+
   </footer>
 </div>
 
