@@ -6283,8 +6283,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: absolute;
   width: 27px;
   height: 61px;
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  /*border-top: 1px solid rgba(255, 255, 255, 0.5);*/
+  /*border-bottom: 1px solid rgba(255, 255, 255, 0.5);*/
   top: 50%;
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
