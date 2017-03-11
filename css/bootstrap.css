@@ -2600,6 +2600,7 @@ mark,
   background: url("../images/slide1.jpg");
   -webkit-background-size: cover;
   background-size: cover;
+  filter: grayscale(0.8);
 }
 .bg-image-1 .breadcrumb {
   list-style: none;
